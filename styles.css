@@ -1,0 +1,756 @@
+/* nothing-you-could-do-regular - latin */
+@font-face {
+  font-family: "Nothing You Could Do";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/nothing-you-could-do-v15-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/nothing-you-could-do-v15-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/nothing-you-could-do-v15-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("fonts/nothing-you-could-do-v15-latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("fonts/nothing-you-could-do-v15-latin-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("fonts/nothing-you-could-do-v15-latin-regular.svg#NothingYouCouldDo")
+      format("svg"); /* Legacy iOS */
+}
+
+/* raleway-200 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 200;
+  src: url("fonts/raleway-v28-latin-200.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/raleway-v28-latin-200.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/raleway-v28-latin-200.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/raleway-v28-latin-200.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/raleway-v28-latin-200.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/raleway-v28-latin-200.svg#Raleway")
+      format("svg"); /* Legacy iOS */
+}
+/* raleway-300 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/raleway-v28-latin-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/raleway-v28-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/raleway-v28-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/raleway-v28-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/raleway-v28-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/raleway-v28-latin-300.svg#Raleway")
+      format("svg"); /* Legacy iOS */
+}
+/* raleway-regular - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/raleway-v28-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/raleway-v28-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/raleway-v28-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/raleway-v28-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/raleway-v28-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("fonts/raleway-v28-latin-regular.svg#Raleway") format("svg"); /* Legacy iOS */
+}
+/* raleway-500 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/raleway-v28-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/raleway-v28-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/raleway-v28-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/raleway-v28-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/raleway-v28-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/raleway-v28-latin-500.svg#Raleway")
+      format("svg"); /* Legacy iOS */
+}
+/* raleway-600 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url("fonts/raleway-v28-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/raleway-v28-latin-600.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/raleway-v28-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/raleway-v28-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/raleway-v28-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/raleway-v28-latin-600.svg#Raleway")
+      format("svg"); /* Legacy iOS */
+}
+/* raleway-700 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/raleway-v28-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/raleway-v28-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/raleway-v28-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/raleway-v28-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/raleway-v28-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/raleway-v28-latin-700.svg#Raleway")
+      format("svg"); /* Legacy iOS */
+}
+/* raleway-800 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("fonts/raleway-v28-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/raleway-v28-latin-800.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/raleway-v28-latin-800.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/raleway-v28-latin-800.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/raleway-v28-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/raleway-v28-latin-800.svg#Raleway")
+      format("svg"); /* Legacy iOS */
+}
+/* raleway-900 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  src: url("fonts/raleway-v28-latin-900.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("fonts/raleway-v28-latin-900.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/raleway-v28-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/raleway-v28-latin-900.woff")
+      format("woff"),
+    /* Modern Browsers */ url("fonts/raleway-v28-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/raleway-v28-latin-900.svg#Raleway")
+      format("svg"); /* Legacy iOS */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 20px;
+  cursor: default;
+}
+
+button {
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  margin: 0;
+}
+
+#header {
+  height: 100px;
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Nothing You Could Do";
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#logomain {
+  object-fit: contain;
+  height: 100px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 150px;
+  left: 35%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainimg-container {
+  position: relative;
+  display: flex;
+}
+
+#logomain img {
+  object-fit: contain;
+  width: 50px;
+  height: 30px;
+}
+
+.logo img {
+  object-fit: contain;
+  width: 50px;
+  height: 30px;
+}
+
+#icons-container {
+  display: flex;
+  align-items: center;
+}
+
+#inCart {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  align-content: center;
+  border-radius: 50%;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  cursor:default;
+}
+
+#content-container {
+  display: flex;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+#offer-container {
+  width: 70%;
+  border-right: solid 1px rgb(205, 199, 199);
+}
+
+#main-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+#name-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 120px;
+}
+
+h2 {
+  margin: 0;
+}
+
+#name-container img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+#name-info {
+  height: 70px;
+}
+
+#name-container p {
+  display: flex;
+  align-items: center;
+  color: orange;
+  margin: 0;
+}
+
+#icons-heart {
+  display: flex;
+  height: 30px;
+  width: auto;
+}
+
+#icons-heart img {
+  object-fit: contain;
+  height: 30px;
+}
+
+.menu-options-container {
+  background-color: rgba(245, 240, 233, 0.854);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+  color: orange;
+  font-size: 16px;
+}
+
+.menu-options-container a {
+  color: rgb(196, 186, 186);
+  text-decoration: none;
+}
+
+.menu-options-container a:hover {
+  color: rgb(162, 150, 150);
+}
+
+.heading-menus {
+  padding: 20px;
+  background-color: rgba(245, 240, 233, 0.854);
+  margin: 20px;
+}
+
+.menu-container img {
+  object-fit: cover;
+  height: 100px;
+  width: 600px;
+  border-radius: 5px;
+}
+
+.menu-container h2 {
+  font-style: oblique;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-number-container {
+  background-color: rgba(245, 240, 233, 0.854);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-number-container button {
+  background-color: orange;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-number-container button:hover {
+  background-color: rgb(255, 202, 104);
+}
+
+.menu-number-container img {
+  object-fit: contain;
+  height: 15px;
+  width: 15px;
+}
+
+.price {
+  color: orange;
+  margin-top: 15px;
+}
+
+#cart-container {
+  position: fixed;
+  width: 30%;
+  right: 0;
+  transition: all 500ms ease-in-out;
+}
+
+h3 {
+  text-align: center;
+}
+
+#content-cart-container {
+  border-bottom: solid 1px rgb(208, 208, 208);
+  padding: 10px;
+}
+
+#content-cart-container p {
+  text-align: center;
+}
+
+table {
+  font-size: 16px;
+  width: 100%;
+}
+
+table tr td:nth-child(0) {
+  width: 10px;
+}
+
+table tr td:nth-child(1) {
+  width: 20px;
+}
+
+table tr td:nth-child(2) {
+  width: 20px;
+}
+
+table tr td:nth-child(3) {
+  width: 140px;
+}
+
+table tr td:nth-child(4) {
+  width: 30px;
+}
+
+table tr td:nth-child(5) {
+  width: 30px;
+}
+
+table tr td:nth-child(6) {
+  width: 30px;
+  text-align: right;
+}
+
+table tr td:nth-child(7) {
+  width: 30px;
+  text-align: right;
+}
+
+table tr td:nth-child(8) {
+  width: 30px;
+  text-align: right;
+}
+
+td button {
+  width: 30px;
+  height: 30px;
+}
+
+#trash {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+#calculation-container {
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.calculation-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#CompletePrice {
+  border-top: solid 1px rgb(213, 213, 213);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.limit-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.limit-text p {
+  text-align: left;
+  color: green;
+  font-weight: 600;
+  width: 280px;
+}
+
+#orderAll {
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 40px;
+}
+
+.inactive {
+  background-color: rgb(224, 218, 218);
+}
+
+.active {
+  background-color: green;
+}
+
+.active:hover {
+  background-color: rgb(75, 201, 75);
+}
+
+#footer {
+  height: 100px;
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+  align-items: center;
+}
+
+#footer-info {
+  display: flex;
+  font-size: 14px;
+}
+
+#footer-info a {
+  color: white;
+  text-decoration: none;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#cartButton {
+  display: none;
+}
+
+#close {
+  display: none;
+}
+
+@media screen and (max-width: 1280px) {
+  #calculation-container {
+    font-size: 16px;
+  }
+
+  .limit-text p {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .overlay {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .overlay-hide {
+    display: none;
+  }
+
+  #close {
+    display: unset;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    border-color: transparent;
+  }
+
+  .menu-container img {
+    width: 400px;
+  }
+
+  #offer-container {
+    width: 100%;
+  }
+
+  .hide {
+    transform: translatex(100%);
+    overflow: hidden;
+  }
+
+  .layover {
+    z-index: 5;
+    background-color: white;
+  }
+
+  #calculation-container {
+    font-size: 14px;
+  }
+  #cartButton {
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    width: 70%;
+    height: 50px;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    z-index: 5;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  #cartButton:hover {
+    background-color: rgb(255, 193, 79);
+  }
+  #cart-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .logo img {
+    object-fit: contain;
+    width: 40px;
+    height: 23px;
+  }
+
+  #logomain {
+    height: 70px;
+    width: 150px;
+  }
+
+  #main-img {
+    height: 180px;
+  }
+
+  #icons-heart {
+    display: none;
+  }
+
+  #name-container {
+    justify-content: center;
+  }
+
+  #name-container p {
+    justify-content: center;
+  }
+
+  #name-info {
+    height: 70px;
+    text-align: center;
+  }
+
+  .menu-container img {
+    width: 200px;
+    height: 70px;
+  }
+
+  .menu-number-container img {
+    width: 18px;
+    height: 18px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #heading {
+    display: none;
+  }
+
+  #main-img {
+    height: 120px;
+  }
+
+  #logomain {
+    width: 120px;
+    height: 65px;
+    top: 90px;
+    left: 30%;
+  }
+
+  #logomain img {
+    width: 30px;
+    height: 20px;
+  }
+
+  .menu-options-container {
+    font-size: 16px;
+  }
+
+  .menu-container img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .menu-number-container button {
+    height: 20px;
+    width: 20px;
+  }
+
+  .menu-number-container img {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .menu-options-container {
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  #name-info img {
+    height: 30px;
+  }
+
+  #name-info img {
+    font-size: 14px;
+  }
+
+  #footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

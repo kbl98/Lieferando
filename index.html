@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/pizzalogo.png" />
+    <title>Piacando</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="overlay" class="overlay overlay-hide"></div>
+    <!--header-->
+
+    <div id="header">
+      <div class="logo"><img src="img/pizzalogo.png" />Piacando</div>
+      <div id="heading"><b>Dein Lieblingsitaliener</b></div>
+      <div id="icons-container">
+        <img class="icon" src="img/deutsch.png" />
+        <img
+          class="icon"
+          src="img/shopping-cart-gb68895edd_1280.png"
+          onclick="showCart()"
+        />
+        <div id="inCart">0</div>
+      </div>
+    </div>
+    <!--mainpage-->
+    <div id="content-container">
+      <div id="offer-container">
+        <div id="mainimg-container">
+          <img id="main-img" src="img/pizza.jpg" />
+          <div class="logo" id="logomain">
+            <img src="img/pizzalogo.png" />Piacando
+          </div>
+        </div>
+        <div id="name-container">
+          <div id="name-info">
+            <h2>Piacando`s Restaurant - leckerer geht`s nicht!</h2>
+            <p><img src="img/stars.png" /> &nbsp;(151 Bewertungen)</p>
+          </div>
+          <div id="icons-heart">
+            <img src="img/herz.png" />
+            <img src="img/information-gc2e2fdc86_1280.png" />
+          </div>
+        </div>
+        <div class="menu-options-container">
+          <p><b>Unser Menü</b></p>
+          <a href="#salads">Salate</a>
+          <a href="#pizza">Pizza</a>
+          <a href="#pasta">Pasta</a>
+          <a href="#drinks">Getränke</a>
+        </div>
+        <div class="menu-container">
+          <h2 class="heading-menus">Unsere Top-Gerichte</h2>
+          <div class="menu-number-container" id="menu1-container">
+            <div id="menu1">
+              <div id="aboutmenu1">
+                <b>Pizza Margarita</b><br />
+                <small
+                  ><i
+                    >mit extra viel Käse und frischen Tomatenstückchen</i
+                  ></small
+                >
+              </div>
+              <div class="price" id="price1">6.50 Euro</div>
+            </div>
+            <button onclick="orderMenu(0)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+
+          <div class="menu-number-container" id="menu2-container">
+            <div id="menu2">
+              <div id="aboutmenu2">
+                <b>Pizza Hawai</b><br />
+                <small><i>die beste Schinken-Ananas-Kombination</i></small>
+              </div>
+              <div class="price" id="price2">7.50 Euro</div>
+            </div>
+            <button onclick="orderMenu(1)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+          <div class="menu-number-container" id="menu3-container">
+            <div id="menu3">
+              <div id="aboutmenu3">
+                <b>Pizza funghi</b><br />
+                <small><i>mit leckeren Pilzen und bestem Schinken</i></small>
+              </div>
+              <div class="price" id="price3">7.20 Euro</div>
+            </div>
+            <button onclick="orderMenu(2)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+
+          <div class="menu-number-container" id="menu4-container">
+            <div id="menu4">
+              <div id="aboutmenu4">
+                <b>Lasagne</b><br />
+                <small
+                  ><i>mit extra viel Käse und frischen Hackfleisch</i></small
+                >
+              </div>
+              <div class="price" id="price4">8.50 Euro</div>
+            </div>
+            <button onclick="orderMenu(3)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+          <div class="menu-number-container" id="menu5-container">
+            <div id="menu5">
+              <div id="aboutmenu5">
+                <b>Insalata Tonno</b><br />
+                <small><i>frische Salate mit Thunfisch und Ei</i></small>
+              </div>
+              <div class="price" id="price5">8.20 Euro</div>
+            </div>
+            <button onclick="orderMenu(4)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+        </div>
+        <div class="menu-container">
+          <h2 class="heading-menus" id="pizza">
+            Unsere Pizza
+            <img src="img/pizzamenu.jpg" />
+          </h2>
+
+          <div class="menu-number-container" id="menu1-container">
+            <div id="menu1">
+              <div id="aboutmenu1">
+                <b>Pizza Margarita</b><br />
+                <small
+                  ><i
+                    >mit extra viel Käse und frischen Tomatenstückchen</i
+                  ></small
+                >
+              </div>
+              <div class="price" id="price1">6.50 Euro</div>
+            </div>
+            <button onclick="orderMenu(0)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+          <div class="menu-number-container" id="menu2-container">
+            <div id="menu2">
+              <div id="aboutmenu2">
+                <b>Pizza Hawai</b><br />
+                <small><i>die beste Schinken-Ananas-Kombination</i></small>
+              </div>
+              <div class="price" id="price2">7.50 Euro</div>
+            </div>
+            <button onclick="orderMenu(1)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+          <div class="menu-number-container" id="menu3-container">
+            <div id="menu3">
+              <div id="aboutmenu3">
+                <b>Pizza funghi</b><br />
+                <small><i>mit leckeren Pilzen und bestem Schinken</i></small>
+              </div>
+              <div class="price" id="price3">7.20 Euro</div>
+            </div>
+            <button onclick="orderMenu(2)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+        </div>
+        <div class="menu-container">
+          <h2 class="heading-menus" id="salads">
+            Unsere Salate
+            <img src="img/salat.jpg" />
+          </h2>
+          <div class="menu-number-container" id="menu5-container">
+            <div id="menu5">
+              <div id="aboutmenu5">
+                <b>Insalata Tonno</b><br />
+                <small><i>frische Salate mit Thunfisch und Ei</i></small>
+              </div>
+              <div class="price" id="price5">8.20 Euro</div>
+            </div>
+            <button onclick="orderMenu(4)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+        </div>
+        <div class="menu-container">
+          <h2 class="heading-menus" id="pasta">
+            Unsere Pasta
+            <img src="img/pasta.jpg" />
+          </h2>
+          <div class="menu-number-container" id="menu4-container">
+            <div id="menu4">
+              <div id="aboutmenu4">
+                <b>Lasagne</b><br />
+                <small
+                  ><i>mit extra viel Käse und frischen Hackfleisch</i></small
+                >
+              </div>
+              <div class="price" id="price4">8.50 Euro</div>
+            </div>
+            <button onclick="orderMenu(3)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+        </div>
+        <div class="menu-container">
+          <h2 class="heading-menus" id="drinks">
+            Unsere Getränke
+            <img src="img/getraenk.jpg" />
+          </h2>
+          <div class="menu-number-container" id="menu6-container">
+            <div id="menu6">
+              <div id="aboutmenu6">
+                <b>Cola</b><br />
+                <small><i>kühl und erfrischend</i></small>
+              </div>
+              <div class="price" id="price6">2.50 Euro</div>
+            </div>
+            <button onclick="orderMenu(5)">
+              <img src="img/shopping-cart-gb68895edd_1280.png" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="cart-container" class="hide">
+        <button id="close" onclick="hideCart()">X</button>
+        <h3>Warenkorb</h3>
+        <div id="content-cart-container">
+          <p id="empty-cart">
+            Ihr Warenkorb ist derzeit leer!<br /><br />Mindestbestellwert:
+            10Euro<br /><br />Lieferkosten: 2 Euro
+          </p>
+        </div>
+        <div id="calculation-container"></div>
+        <div id="limit"></div>
+      </div>
+
+      <button class="cartButton" id="cartButton" onclick="showCart()">
+        Warenkorb:&nbsp;
+        <p id="cartvalue">0 Euro</p>
+      </button>
+    </div>
+    <!--footer-->
+    <div id="footer">
+      <div class="logo"><img src="img/pizzalogo.png" />Piacando</div>
+      <div id="footer-info">
+        <a href="#">Impressum</a> | <a href="#">AGB</a>|
+        <a href="#">IDatenschutz</a>
+      </div>
+    </div>
+  </body>
+</html>
